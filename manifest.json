@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "МЭШ Темная тема",
+  "version": "1.0",
+  "description": "Темная тема для сайта МЭШ на ПК",
+  "author": "levizack",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["*://school.mos.ru/diary/*", "*://uchebnik.mos.ru/*"],
+  "action": {
+    "default_icon": {
+      "16":"icon16.png",
+      "24":"icon24.png",
+      "32":"icon32.png",
+      "48":"icon48.png",
+      "64":"icon64.png",
+      "128":"icon128.png"
+    },
+    "default_title":"Темная тема МЭШ",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://school.mos.ru/diary/*", "*://uchebnik.mos.ru/*"],
+      "js": ["script.js"],
+      "css": ["table.css", "popup.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
