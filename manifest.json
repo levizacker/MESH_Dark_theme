@@ -1,26 +1,25 @@
 {
   "manifest_version": 3,
-  "name": "МЭШ Темная тема",
-  "version": "1.0",
-  "description": "Темная тема для сайта МЭШ на ПК",
+  "name": "MDT",
+  "version": "1.1",
+  "description": "тёмная тема для сайта МЭШ на ПК",
   "author": "levizack",
   "permissions": ["storage", "activeTab", "scripting"],
-  "host_permissions": ["*://school.mos.ru/diary/*", "*://uchebnik.mos.ru/*"],
+  "host_permissions": ["*://school.mos.ru/*", "*://uchebnik.mos.ru/*", "*://mos.ru/*", "*://*.mos.ru/*", "*://login.mos.ru/*" ],
   "action": {
     "default_icon": {
       "16":"icon16.png",
       "24":"icon24.png",
       "32":"icon32.png",
       "48":"icon48.png",
-      "64":"icon64.png",
-      "128":"icon128.png"
+      "64":"icon64.png"
     },
-    "default_title":"Темная тема МЭШ",
+    "default_title":"MDT",
     "default_popup": "popup.html"
   },
   "content_scripts": [
     {
-      "matches": ["*://school.mos.ru/diary/*", "*://uchebnik.mos.ru/*"],
+      "matches": ["*://school.mos.ru/*", "*://uchebnik.mos.ru/*"],
       "js": ["script.js"],
       "css": ["table.css", "popup.css"],
       "run_at": "document_start"
