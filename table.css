@@ -1,5 +1,8 @@
-:root[data-dark-noble='1'] {
-  --MH-Background: #000 !important;
+/* чел иди нахуй */
+
+:root[mdt='1'] {
+  --LM-font-family: font-family: -apple-system, BlinkMacSystemFont, Bahnschrift, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+  --MH-Background: #1e1e1e !important;
   --MH-UserBar-Active-Light: #323232 !important;
   --MH-Background-Light: #1e1e1e !important;
   --MH-Background-Blue: #1e1e1e !important;
@@ -8,7 +11,7 @@
   --MH-BorderColor: #33363a !important;
   --MH-IconWrap: #272727 !important;
   --MH-Avatar: #292929 !important;
-  --MF-Color-Fill-App: #000 !important;
+  --MF-Color-Fill-App: #1e1e1e !important;
   --NC-Background-Light: #1e1e1e !important;
   --NC-Border-Light: #2b2b2b !important;
   --NC-Color-Black: #e6e6e6 !important;
@@ -25,12 +28,19 @@
   --LM-content-secondary: #fcfcfc !important;
   --LM-content-on-layer-on-solid-secondary: #fff !important;
   --LM-content-on-layer-on-solid-primary: #fff !important;
+  --LM-interactive-layer-accent-soft-hover: #fff !important;
+  --palette-white: #2b2b2b !important;
+  --LM-layer-1: #2b2b2b !important;
+  --MH-Background-Light: #2b2b2b !important;
+  --LM-neutrals-day-0: #2b2b2b !important;
+  --MF-Color-dark: #FFFFF !important;
 }
 
 html, body, #root {
   background-color: var(--MH-Background) !important;
   color: var(--MH-Color) !important;
   -webkit-font-smoothing: antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, Bahnschrift, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 ._2vXYGvKmZR7Lo2sotbJXSu,
@@ -38,6 +48,7 @@ html, body, #root {
 ._1oN9V_mBeevEqPkgxa-KU-,
 ._35JAg66-j8RunaN26U0EJA,
 ._11XleFZOxeHarVKUNM0aAE,
+.diary-emotion-cache-1b05iij-list,
 ._2vXYGvKmZR7Lo2sotbJXSu ._1Cm8MtWPeKT-z_nWH5A93a {
   background-color: var(--MH-Background-Light) !important;
   color: var(--MH-Color) !important;
@@ -46,36 +57,35 @@ html, body, #root {
 }
 
 a:link {
-	color: #3b90ff
+	color: #FFF
 }
 
 a:visited {
-	color: #3b90ff
+	color: #FFF
 }
 
 a:hover {
-	color: #5EA6FF
+	color: #3b90ff
 }
 
 a:active {
-	color: #0072FF
+	color: #3b90ff
 }
 
 a:focus {
-	color: #5EA6FF
+	color: #3b90ff
 }
 
 button,
 .FDJEFXkDpWhBLZDxnInU,
 ._1kdiKOmw5B6yY4FMD6NTpP,
 .hx5_4stp0vOrbAU6FKgUd,
-input,
 textarea,
 select,
 .MuiInputBase-root {
-  background-color: #262626 !important;
+  background-color: #2b2b2b !important;
   color: var(--MH-Color) !important;
-  border: 1px solid var(--MH-BorderColor) !important;
+  border: 1px solid #2b2b2b !important;
   box-shadow: none !important;
 }
 
@@ -101,7 +111,7 @@ select,
   scrollbar-color: #333 #1e1e1e;
 }
 
-:root[data-dark-noble='1'] 
+:root[mdt='1'] 
 .diary-emotion-cache-2d0tnv-title,
 .diary-emotion-cache-xl8xs4-chevron,
 .diary-emotion-cache-gx07lg,
@@ -110,7 +120,6 @@ select,
 .diary-emotion-cache-8l90ne-title,
 .diary-emotion-cache-1nnxim4-link-dotBadgeIsNew-linkWithRightMargin,
 .diary-emotion-cache-kakzwb-subject,
-.diary-emotion-cache-zd4pel-link,
 .diary-emotion-cache-11mdt2n-link,
 .ayhvRuTNcsSUu5c5C9LT,
 .diary-emotion-cache-1ouk3di-link,
@@ -123,48 +132,166 @@ select,
 .css-1umjan1,
 .css-135pug5,
 .css-1nenzg3,
+.diary-emotion-cache-rloa65-title,
+.diary-emotion-cache-15i5qxa,
+.diary-emotion-cache-jfffkg-lessonName,
+.diary-emotion-cache-1cq6cco-partnerName,
 .css-rgs6qu,
 .css-bt3brp,
 .styles_settings__rbtuN,
 .styles_container__5FoFl,
 .styles_header__ya4b5,
-.styles_userName__xnjNo
+.diary-emotion-cache-12tvstw-description,
+.style_callback_title__pIKzi,
+.style_callback_description__MJvhW,
+.style_aside-login_title__3gKiu,
+.carousel *,
+.styles_userName__xnjNo,
+.css-r9wcxl,
+.diary-emotion-cache-1bntp9t-absence,
+.diary-emotion-cache-zd4pel-link,
+._ELGiVRWaoZZRQLlT7eO,
+.diary-emotion-cache-qpaovh-iconBlock,
+.diary-emotion-cache-h3lsi4-chip-chip .MuiChip-icon,
+.diary-emotion-cache-1xev7q1-chip-chip .MuiChip-icon,
+.diary-emotion-cache-18ix5hp-tabIcon-svgDesktop,
+.diary-emotion-cache-1yfmwck,
+.css-nef2qd,
 .katex {
   color: #fff !important;
 }
 
-:root[data-dark-noble='1'] .styles_compilationMaterialsSlider__tzgQ9>header>a {
+:root[mdt='1'] .styles_compilationMaterialsSlider__tzgQ9>header>a {
   color: rgb(0, 160, 255) !important;
 }
 
-:root[data-dark-noble='1'] .diary-emotion-cache-gx07lg,
-:root[data-dark-noble='1'] .diary-emotion-cache-kakzwb-subject {
+:root[mdt='1'] .diary-emotion-cache-gx07lg,
+:root[mdt='1'] .diary-emotion-cache-kakzwb-subject {
   background-color: rgba(255,255,255,1) !important;
 }
 
-:root[data-dark-noble='1'] .css-rgs6qu:hover {
+:root[mdt='1']
+.css-rgs6qu:hover,
+.css-1u0al2p .MuiPaper-root {
   color: #fff !important;
+  borer-color: #fff !important;
 }
 
-:root:not([data-dark-noble]),
-:root:not([data-dark-noble]) body,
-:root:not([data-dark-noble]) #root {
+:root:not([mdt]),
+:root:not([mdt]) body,
+:root:not([mdt]) #root {
   background-color: #f4f4f8 !important;
-  color: #000000 !important;
+  color: #000 !important;
 }
 
-:root:not([data-dark-noble]) button,
-:root:not([data-dark-noble]) ._2vXYGvKmZR7Lo2sotbJXSu,
-:root:not([data-dark-noble]) ._3cGUA8m2hzSmkDcv99II9_,
-:root:not([data-dark-noble]) ._1oN9V_mBeevEqPkgxa-KU-,
-:root:not([data-dark-noble]) ._35JAg66-j8RunaN26U0EJA,
-:root:not([data-dark-noble]) ._11XleFZOxeHarVKUNM0aAE,
-:root:not([data-dark-noble]) .FDJEFXkDpWhBLZDxnInU, 
-:root:not([data-dark-noble]) ._1kdiKOmw5B6yY4FMD6NTpP,
-:root:not([data-dark-noble]) .hx5_4stp0vOrbAU6FKgUd,
-:root:not([data-dark-noble]) ._2vXYGvKmZR7Lo2sotbJXSu ._1Cm8MtWPeKT-z_nWH5A93a {
+:root:not([mdt]) button,
+:root:not([mdt]) ._2vXYGvKmZR7Lo2sotbJXSu,
+:root:not([mdt]) ._3cGUA8m2hzSmkDcv99II9_,
+:root:not([mdt]) ._1oN9V_mBeevEqPkgxa-KU-,
+:root:not([mdt]) ._35JAg66-j8RunaN26U0EJA,
+:root:not([mdt]) ._11XleFZOxeHarVKUNM0aAE,
+:root:not([mdt]) .FDJEFXkDpWhBLZDxnInU, 
+:root:not([mdt]) ._1kdiKOmw5B6yY4FMD6NTpP,
+:root:not([mdt]) .hx5_4stp0vOrbAU6FKgUd,
+:root:not([mdt]) ._2vXYGvKmZR7Lo2sotbJXSu ._1Cm8MtWPeKT-z_nWH5A93a {
   background-color: #f4f4f8 !important;
-  color: #000000 !important;
+  color: #000 !important;
   border: none !important;
   box-shadow: none !important;
+}
+
+:root[mdt="1"] 
+.vraolIxs2KxsrgKGRnTH path:nth-child(1),
+.diary-emotion-cache-q4kcrt-root path:nth-child(1) {
+    fill: #fff !important;
+	fill-opacity: 1 !important;
+}
+
+:root[mdt="1"]
+ .diary-emotion-cache-th4zjy-subMenu:hover,
+._1yARRLZaSMCYxktfk30bsh, 
+.diary-emotion-cache-1osf8ob-popperButton:hover,
+.diary-emotion-cache-1yfwmxg-contentItem:hover,
+.diary-emotion-cache-cvb8ai-root-desktop:hover,
+.diary-emotion-cache-th4zjy-subMenu:hover,
+.diary-emotion-cache-r0xtfl-root-active-desktop,
+.diary-emotion-cache-1bo36ky-root-collapsed:hover,
+._3kp0YebVdyVNWP1R__IxW5:hover {
+	background-color: #2f2f2f !important;
+}
+:root[mdt="1"]
+._1xqL9ayhZ_m53Xg3xJ3ZxY,
+.diary-emotion-cache-zd4pel-link {
+	background-color: #1e1e1e !important;
+}
+
+:root[mdt="1"]
+.diary-emotion-cache-4ylwtt,
+.diary-emotion-cache-15i311l {
+    border: 2px solid !important;
+    border-color: rgba(150, 150, 150, 255) !important;
+}
+
+:root[mdt="1"]
+.diary-emotion-cache-1pl0a43-dayBtn,
+input {
+    border: 1px solid #2f2f2f !important;
+    background-color: #1a1a1a !important;
+}
+
+/*
+:root[mdt="1"]
+.AKVID4mBSAZ5bG4s2pFH:active, 
+.AKVID4mBSAZ5bG4s2pFH:hover {
+    
+}
+*/
+
+:root[mdt="1"]
+.style_btn__3lIWs:hover {
+    background: #2991ff !important;
+}
+
+:root[mdt="1"]
+.style_btn__3lIWs {
+    background: #007cff !important;
+}
+
+:root[mdt="1"]
+.diary-emotion-cache-yin7hv-absence {
+    color: #ff2a2a
+}
+
+:root[mdt="1"]
+.diary-emotion-cache-1207t0p-wrapper {
+    border: 3px solid !important;
+    border-color: #ff2a2a !important;
+}
+
+:root[mdt="1"]
+.diary-emotion-cache-gx07lg {
+    font-size: 15px
+}
+
+:root[mdt="1"]
+.diary-emotion-cache-ye5vh7-subjectWrapper:hover,
+.diary-emotion-cache-ye5vh7-subjectWrapper:hover [data-averagemark="averageMark"] {
+	background-color: #343434 !important;
+}
+/*
+p.s. its not working
+з.ы. это не работает
+:root[mdt="1"]
+.diary-emotion-cache-1s9jjbq-rating {
+	tranform: rotate(0deg);
+}
+*/
+:root[mdt="1"]
+.diary-emotion-cache-ye5vh7-subjectWrapper:hover [data-rating="win"] {
+	background-color: rgba(250, 176, 5, 0.7);
+}
+
+:root[mdt="1"]
+.diary-emotion-cache-ye5vh7-subjectWrapper:hover [data-rating="loser"] {
+	background-color: #3a3a3a !important;
 }
