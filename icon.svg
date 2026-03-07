@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<!-- ы. тут был levizack(er) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="432"
+   height="432"
+   viewBox="0 0 432 432"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient4">
+      <stop
+         style="stop-color:#1f2733;stop-opacity:1;"
+         offset="0"
+         id="stop4" />
+      <stop
+         style="stop-color:#24323c;stop-opacity:1;"
+         offset="0.99994022"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2">
+      <stop
+         style="stop-color:#2f2f2f;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#161616;stop-opacity:1;"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient2"
+       id="linearGradient3"
+       x1="216"
+       y1="0"
+       x2="216"
+       y2="432"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient4"
+       id="linearGradient5"
+       x1="-103.75052"
+       y1="266.54776"
+       x2="78.386604"
+       y2="84.410637"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <path
+     id="rect1"
+     style="display:inline;fill:url(#linearGradient3);stroke-width:1.6143"
+     d="M 0,0 H 432 V 432 H 0 Z" />
+  <path
+     id="rect3"
+     style="fill:url(#linearGradient5);stroke-width:2.07692"
+     d="M -104.08612,104.08612 2.48e-6,2.48e-6 269.99459,269.99459 -104.08028,266.84904 Z"
+     transform="rotate(-45)" />
+  <path
+     d="m -162.42683,396.82266 25.96875,-91.875 h 33.84375 v 136.3125 h -23.34375 l 0,-105.84375 0.9375,6 -26.0625,84.65625 h -22.6875 l -26.0625,-82.78125 0.9375,-7.875 -0.50853,76.11974 -23.33453,-23.33453 0.49931,-83.25396 h 33.84375 z m 132.093746,45.84375 c -8.5625,0 -16.21875,-1.84375 -22.96875,-5.53125 -6.6875,-3.6875 -12.25,-9.03125 -16.6875,-16.03125 -4.375,-7.0625 -7.4375,-15.5625 -9.1875,-25.5 v 0 l 26.625,0 v 0 c 1.4375,6.8125 4.09375,12.09375 7.96875,15.84375 3.875,3.6875 8.625,5.53125 14.25,5.53125 7.25,0 12.84375,-2.1875 16.78125,-6.5625 3.9374999,-4.375 5.9062499,-10.5625 5.9062499,-18.5625 l 0,-37.40625 c 0,-8 -1.96875,-14.1875 -5.9062499,-18.5625 -3.9375,-4.4375 -9.53125,-6.65625 -16.78125,-6.65625 -3.6875,0 -7.03125,0.84375 -10.03125,2.53125 -2.9375,1.6875 -5.4375,4.125 -7.5,7.3125 -2.0625,3.125 -3.625,6.96875 -4.6875,11.53125 v 0 h -26.625 v 0 c 1.75,-10 4.8125,-18.5 9.1875,-25.5 4.375,-7 9.90625,-12.34375 16.59375,-16.03125 6.75,-3.6875 14.4375,-5.53125 23.0625,-5.53125 10.4375,0 19.3125,2 26.6249999,6 7.375,4 13,9.78125 16.8750001,17.34375 3.875,7.5625 5.8125,16.75 5.8125,27.5625 l 0,37.40625 c 0,10.75 -1.9375,19.9375 -5.8125,27.5625 -3.8750001,7.5625 -9.5000001,13.34375 -16.8750001,17.34375 -7.3124999,3.9375 -16.1874999,5.90625 -26.6249999,5.90625 z m -17.625,-57.1875 v -23.8125 l 52.9687499,0 v 23.8125 z m 214.312504,55.78125 0,-136.3125 h 25.6875 l -0.0624,114.01311 z m -111.000004,0 v -24.75 l 136.632074,2.56204 -22.28086,22.16243 z m -11.0625,0 0,-136.3125 h 25.6875 v 136.3125 z m 61.031254,0 0,-136.3125 h 25.6875 v 136.3125 z"
+     id="text3"
+     style="font-weight:bold;font-size:192px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';fill:#ffffff;fill-opacity:1"
+     transform="rotate(-45)"
+     aria-label="МЭШ" />
+  <path
+     id="path10"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.781;stroke-dasharray:none;stroke:none;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+     d="m 169.92901,21.320846 a 45.198604,45.198604 0 0 1 24.81882,-0.405448 45.198604,45.198604 0 0 1 31.95855,55.357151 45.198604,45.198604 0 0 1 -20.95485,27.385371 46.295655,46.295655 0 0 0 37.16745,-33.695092 46.295655,46.295655 0 0 0 -32.73544,-56.699444 46.295655,46.295655 0 0 0 -40.25453,8.057462 z" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-dasharray:none;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"
+     d="M 236,132 H 8.0433397 Z"
+     id="path13" />
+</svg>
