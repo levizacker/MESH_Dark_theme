@@ -1,3 +1,5 @@
+// чел иди нахуй
+
 (function() {
   "use strict";
 
@@ -18,12 +20,12 @@
   };
 
   const root = document.documentElement;
-  const DARK_NOBLE_FLAG = "data-dark-noble";
+  const MDT = "mdt";
   function setFlag(isEnabled) {
     if (isEnabled) {
-      root.setAttribute(DARK_NOBLE_FLAG, "1");
+      root.setAttribute(MDT, "1");
     } else {
-      root.removeAttribute(DARK_NOBLE_FLAG);
+      root.removeAttribute(MDT);
     }
   }
 
