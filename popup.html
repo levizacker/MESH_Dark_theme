@@ -1,17 +1,23 @@
 <!DOCTYPE html>
+<!-- чел иди нахуй -->
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<title>Темная тема МЭШ</title>
+<title>MDT</title>
 <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-<h3>Темная тема МЭШ</h3>
-<button id="toggleTheme">Загрузка...</button>
+<h3>MDT</h3>
+<p class="status">расширение активно</p>
 
-<div id="reloadMessage">
-    <p>требуется перезагрузка страницы для полного сброса стилей</p>
-    <button id="reloadButton" class="reload-button">Перезагрузить</button>
+<div class="actions">
+    <button id="openGit">проект на GitHub</button>
+    <button id="showLicense">лицензия</button>
+</div>
+
+<div id="licenseView" class="hidden">
+    <button id="backBtn">назад</button>
+    <pre id="licenseText"></pre>
 </div>
 
 <script src="popup.js"></script>
