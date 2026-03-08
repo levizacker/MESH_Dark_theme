@@ -6,18 +6,22 @@
 1. скачивание
    * скачайте файлы расширения, или клонируйте репо для совсем умных ```git clone https://github.com/levizacker/MESH_Dark_theme.git```
    
-   * удобнее всего будет скачать со [страницы проекта](https://github.com/levizacker/MESH_Dark_theme)
+   * удобнее всего будет скачать со [страницы проекта](https://github.com/levizacker/MESH_Dark_theme):
 
-   * скачайте архив нажав на большую зелёную кнопку "Code", и там выберите "Download ZIP", либо тыкните [здесь (прямая ссылка)](https://github.com/levizacker/MESH_Dark_theme/archive/refs/heads/main.zip) 
-   
+   * скачайте архив нажав на большую зелёную кнопку "Code", и там выберите "Download ZIP", либо тыкните [здесь (прямая ссылка)](https://github.com/levizacker/MESH_Dark_theme/archive/refs/heads/main.zip)
+     <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/ba6d999e-12e6-4abd-98d2-d37a51bb75c5" />
+ 
    * распакуйте архив в любую папку, главное чтобы все файлы расширения были в одной папке
    
 2. загрузка в хром
    * откройте браузер и в адресной строке введите ```chrome://extensions/```
 
    * включите "режим разработчика" (переключатель в правом верхнем углу)
-   
+     <img width="1772" height="161" alt="image" src="https://github.com/user-attachments/assets/f3ec4118-3cd6-4006-bdbb-46fc9a9a1b56" />
+
    * нажмите "загрузить распакованное расширение"
+     <img width="818" height="280" alt="image" src="https://github.com/user-attachments/assets/3558b59c-c106-4dbb-a53e-49ab8531ed66" />
+
    
    * выберите папку куда вы распаковали или клонировали архив
    
@@ -35,3 +39,14 @@
 3. страдайте от белой темы.
 
 примечание: это расширение является неофициальным и никак не связано с всей этой системой гособразования. автор не несет ответственности за возможные (че то там)
+
+
+видео сравнения оригинального сайта с сайтом с расширением
+
+<p align="center">
+  <a href="https://github.com/user-attachments/assets/5f40aa80-a25e-4521-9653-c9cf6a280d12">
+    <img width="776" height="437" alt="image" src="https://github.com/user-attachments/assets/08a067b8-b890-4aac-99bc-e0c569680071">
+  </a>
+</p>
+
+
